@@ -1,4 +1,6 @@
 const ButtonComponent = () => {
+  console.log('hello');
+
   return <div>ButtonComponent</div>;
 };
 
