@@ -1,3 +1,5 @@
+import { ReactDOM } from 'react';
+
 const ButtonComponent = () => {
   console.log('hello');
 

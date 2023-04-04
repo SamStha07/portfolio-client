@@ -32,7 +32,7 @@
     "prettier/prettier": [
       "error",
       {
-        "endOfLine": "auto",
+        "endOfLine": "auto"
       }
     ],
     "@typescript-eslint/no-unused-vars": "error",
