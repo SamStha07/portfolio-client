@@ -1,8 +1,8 @@
 import React from 'react';
 
-const beforeStyle = `before:content-['<p>'] before:absolute before:font-cursive before:leading-[18px] before:text-stone-400 before:text-lg before:-top-[14px] before:-left-[10px] before:font-normal before:tracking-normal`;
+const beforeStyle = `before:content-['<p>'] before:absolute before:font-cursive before:leading-[18px] before:text-black-light before:text-lg before:-top-[14px] before:-left-[10px] before:font-normal before:tracking-normal`;
 
-const afterStyle = `after:content-['</p>'] after:absolute after:font-cursive after:leading-[18px] after:text-stone-400 after:text-lg after:-bottom-[20px] after:-left-[10px] after:font-normal after:tracking-normal`;
+const afterStyle = `after:content-['<p/>'] after:absolute after:font-cursive after:leading-[18px] after:text-black-light after:text-lg after:-bottom-[20px] after:-left-[10px] after:font-normal after:tracking-normal`;
 
 const HeroSubtitle = () => {
   return (

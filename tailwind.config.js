@@ -13,6 +13,7 @@ module.exports = {
       colors: {
         background: '#1d1d1d',
         'white-secondary': '#e8e6e3',
+        'black-light': '#515152',
       },
       fontFamily: {
         cursive: "'La Belle Aurore', cursive",
