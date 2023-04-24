@@ -16,7 +16,7 @@ const AnimatedButton = () => {
       // initial="variantA"
       whileHover="variantB"
       // variants={parent}
-      className="border border-[#08fdd8] text-[#08fdd8] tracking-[4px] text-sm w-[200px] h-[45px] relative overflow-hidden hover:text-white"
+      className="border border-[#08fdd8] text-[#08fdd8] tracking-[4px] text-sm w-[200px] h-[45px] relative overflow-hidden hover:text-black"
     >
       <motion.div
         variants={child}

@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 
 const beforeStyle = `before:content-['<p>'] before:absolute before:font-cursive before:leading-[18px] before:text-black-light before:text-lg before:-top-[14px] before:-left-[10px] before:font-normal before:tracking-normal`;
 
@@ -6,13 +7,21 @@ const afterStyle = `after:content-['<p/>'] after:absolute after:font-cursive aft
 
 const HeroSubtitle = () => {
   return (
-    <div className="relative w-fit my-[30px] mb-12">
+    <motion.div
+      className="relative w-fit my-[30px] mb-12"
+      initial={{ opacity: 0, y: '100%' }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{
+        delay: 1,
+        duration: 0.5,
+      }}
+    >
       <p
         className={`${beforeStyle} ${afterStyle} whitespace-nowrap  font-sans cursor-default pl-1 text-[#A0988B] tracking-[4px]`}
       >
         Front End Developer / WordPress Expert
       </p>
-    </div>
+    </motion.div>
   );
 };
 
